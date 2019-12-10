@@ -5,11 +5,12 @@ pipeline {
       parallel {
         stage('errordddd') {
           steps {
+            timeout(time: 1, unit: 'MINUTES')
             sh '55555'
             sh 'xcvcv'
           }
         }
-        stage('') {
+        stage('error') {
           steps {
             mail(subject: 'xcvxcv', body: 'xcvxcvxcv')
           }
