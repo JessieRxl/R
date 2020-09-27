@@ -4,7 +4,7 @@ pipeline {
     stage('error') {
       parallel {
         stage('errordddd') {
-          steps {
+          steps {bbb
             timeout(time: 1, unit: 'MINUTES')
             sh '55555'
             sh 'xcvcv'
